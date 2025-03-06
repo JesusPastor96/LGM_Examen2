@@ -1,0 +1,141 @@
+@font-face {
+    font-family: Street;
+    src: url(fonts/street.otf);
+}
+
+#root{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+}
+
+#fondo{
+    background-image: url(img/fondo2.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+body{
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+.titulo{
+    font-family: Street;
+    color: crimson;
+    font-size: 46px;
+    text-align: center;
+}
+
+table{
+    border: 10px outset RGB(237, 175, 5);
+    width: 600px;
+    height: 800px;
+    background-color: black;
+    border-radius: 10px;
+    text-align: center;
+    margin: auto;
+    margin-bottom: 2rem;
+}
+
+
+.cabecera{
+    font-size: 40px;
+    color: whitesmoke;
+    background-image: url(img/fondocabecera.jpg);
+    opacity: 0.5;
+}
+
+td{
+    width: 40px;
+    height: 45px;
+    font-family: 'Street';
+    font-size: 18px;
+    font-weight: bold;
+    color: darkorange;
+    text-align: center;
+    border: 2px solid grey;
+    border-radius: 10px;
+
+}
+
+.texto_celda{
+    font-size: 16px;
+}
+/*Formulario*/
+
+.titulo2{
+    font-family: Street;
+    color: crimson;
+    font-size: 28px;
+    text-align: center;
+}
+
+form{
+    width: 600px;
+    height: 1100px;
+    border: 10px outset RGB(237, 175, 5);
+    color: white;
+    border-radius: 10px;
+    background-color: black;
+    font-size: 16px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: auto;
+}
+
+fieldset {
+    margin-bottom: 20px;
+}
+
+legend {
+    font-family: 'Street';
+    font-size: 14px;
+    color: rgb(237, 175, 5);
+}
+
+
+
+textarea {
+    width: 560px;
+}
+
+.buttons {
+    margin-top: 20px;
+}
+
+.campo label {
+    display: block;
+    margin: 15px 0;
+}
+
+.campo_direccion {
+    display: inline-block !important;
+}
+
+.boton {
+    border: 1px solid crimson;
+    background-color: crimson;
+    font-family: 'Street';
+    font-size: 18px;
+    color: white;
+    width: 200px;
+    height: 50px;
+    margin-left: 65px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+
+.sexo_usuario{
+    display:block;
+}
+
+.fechaNacimiento{
+    display: flex;
+    gap: 10px;
+}
+
+
+
+
