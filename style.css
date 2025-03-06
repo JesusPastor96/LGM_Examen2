@@ -46,6 +46,7 @@ table{
     color: whitesmoke;
     background-image: url(img/fondocabecera.jpg);
     opacity: 0.5;
+    background-size: 100% 100%;
 }
 
 td{
